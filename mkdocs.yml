@@ -1,2 +1,4 @@
+site_name: OmAgent
+site_url: https://om-ai-lab.github.io/OmAgentDocs/
 theme:
   name: material
