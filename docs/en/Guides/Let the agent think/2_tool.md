@@ -1,3 +1,3 @@
-# Let the agent think
+# Tools
 
 How to let the agent use tools.

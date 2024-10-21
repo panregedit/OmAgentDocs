@@ -1,3 +1,3 @@
-# Let the agent think
+# More complex workflow
 
-Advanced Node Concepts: Decider & Loop，tools
+Advanced Node Concepts: Decider & Loop
