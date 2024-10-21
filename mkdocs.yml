@@ -2,3 +2,11 @@ site_name: OmAgent
 site_url: https://om-ai-lab.github.io/OmAgentDocs/
 theme:
   name: material
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
