@@ -13,7 +13,3 @@ plugins:
         - locale: zh
           name: 中文
           build: true
-nav:
-  - Getting started
-  - Guides
-  - Core Concepts
