@@ -2,6 +2,32 @@ site_name: OmAgent
 site_url: https://om-ai-lab.github.io/OmAgentDocs/
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+nav:
+  - Home: index.md
+  - Guides:
+    - Let the agent think:
+      - More complex workflow: Guides/Let the agent think/1_workflow.md
+      - Tools: Guides/Let the agent think/2_tool.md  
+    - Let the agent remember:
+      - Memory: Guides/Let the agent remember/1_memory.md
+  - Getting Started:
+    - Quick Start: Getting Started/1_quick_start.md
+    - Connect to device: Getting Started/2_devices.md
+    - Visualization and analysis: Getting Started/3_visual.md
+markdown_extensions:
+  - meta # 用于在Markdown文件中添加元数据
+  - toc:
+      permalink: true # 为标题添加永久链接
+  - admonition # 支持警告、提示等特殊内容块
+  - footnotes # 支持脚注功能
 plugins:
   - i18n:
       docs_structure: folder
@@ -13,3 +39,17 @@ plugins:
         - locale: zh
           name: 中文
           build: true
+          nav:
+            - 首页: index.md
+            - 开始: 开始/quick_start.md
+  - search: # 搜索
+      lang:
+          - en
+          - zh
+      separator: '[\s\-\.]+' # 分词分隔符
+extra:
+  social: # 社交账号
+      - icon: fontawesome/brands/github
+        link: https://github.com/
+  version:
+    provider: mike
