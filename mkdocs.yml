@@ -10,43 +10,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
-nav:
-  - Home: index.md
-  - Getting Started:
-    - Quick Start: Getting Started/1_quick_start.md
-    - Connect to device: Getting Started/2_devices.md
-    - Visualization and analysis: Getting Started/3_visual.md
-  - Guides:
-    - Let the agent think:
-      - More complex workflow: Guides/Let the agent think/1_workflow.md
-      - Tools: Guides/Let the agent think/2_tool.md  
-    - Let the agent remember:
-      - Memory: Guides/Let the agent remember/1_memory.md
-  - Core Concepts:
-    - Node: 
-      - Introduction: Core Concepts/Node/intro.md
-      - Configuration: Core Concepts/Node/config.md
-      - Build: Core Concepts/Node/build.md
-    - Workflow: 
-      - Introduction: Core Concepts/Workflow/intro.md
-      - Configuration: Core Concepts/Workflow/config.md
-      - Build: Core Concepts/Workflow/build.md
-    - Models: 
-      - Introduction: Core Concepts/Models/intro.md
-      - Configuration: Core Concepts/Models/config.md
-      - Build: Core Concepts/Models/build.md
-    - Tool: 
-      - Introduction: Core Concepts/Tool/intro.md
-      - Configuration: Core Concepts/Tool/config.md
-      - Build: Core Concepts/Tool/build.md
-    - Memory: 
-      - Introduction: Core Concepts/Memory/intro.md
-      - Configuration: Core Concepts/Memory/config.md
-      - Build: Core Concepts/Memory/build.md
-    - Clients: 
-      - Introduction: Core Concepts/Clients/intro.md
-      - Configuration: Core Concepts/Clients/config.md
-      - Build: Core Concepts/Clients/build.md
+
 markdown_extensions:
   - meta # 用于在Markdown文件中添加元数据
   - toc:
@@ -61,6 +25,45 @@ plugins:
           default: true
           name: English
           build: true
+
+          nav:
+            - Home: index.md
+            - Getting Started:
+              - Quick Start: Getting Started/1_quick_start.md
+              - Connect to device: Getting Started/2_devices.md
+              - Visualization and analysis: Getting Started/3_visual.md
+            - Guides:
+              - Let the agent think:
+                - More complex workflow: Guides/Let the agent think/1_workflow.md
+                - Tools: Guides/Let the agent think/2_tool.md  
+              - Let the agent remember:
+                - Memory: Guides/Let the agent remember/1_memory.md
+            - Core Concepts:
+              - Node: 
+                - Introduction: Core Concepts/Node/intro.md
+                - Configuration: Core Concepts/Node/config.md
+                - Build: Core Concepts/Node/build.md
+              - Workflow: 
+                - Introduction: Core Concepts/Workflow/intro.md
+                - Configuration: Core Concepts/Workflow/config.md
+                - Build: Core Concepts/Workflow/build.md
+              - Models: 
+                - Introduction: Core Concepts/Models/intro.md
+                - Configuration: Core Concepts/Models/config.md
+                - Build: Core Concepts/Models/build.md
+              - Tool: 
+                - Introduction: Core Concepts/Tool/intro.md
+                - Configuration: Core Concepts/Tool/config.md
+                - Build: Core Concepts/Tool/build.md
+              - Memory: 
+                - Introduction: Core Concepts/Memory/intro.md
+                - Configuration: Core Concepts/Memory/config.md
+                - Build: Core Concepts/Memory/build.md
+              - Clients: 
+                - Introduction: Core Concepts/Clients/intro.md
+                - Configuration: Core Concepts/Clients/config.md
+                - Build: Core Concepts/Clients/build.md
+
         - locale: zh
           name: 中文
           build: true
