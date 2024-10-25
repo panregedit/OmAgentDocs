@@ -10,7 +10,10 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
-
+  icon:
+    repo: fontawesome/brands/github
+repo_url: https://github.com/om-ai-lab/OmAgent
+repo_name: om-ai-lab/OmAgent
 markdown_extensions:
   - meta # 用于在Markdown文件中添加元数据
   - toc:
@@ -110,6 +113,10 @@ plugins:
 extra:
   social: # 社交账号
       - icon: fontawesome/brands/github
-        link: https://github.com/
+        link: https://github.com/om-ai-lab/OmAgent
+      - icon: fontawesome/brands/square-x-twitter
+        link: https://x.com/OmAI_lab
+      - icon: fontawesome/brands/discord
+        link: https://discord.gg/CtmCgXZB
   version:
     provider: mike
