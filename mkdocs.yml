@@ -68,9 +68,9 @@ plugins:
           nav:
             - 首页: index.md
             - 开始:
-              - 快速开始: 开始/1_quick_start.md
-              - 连接设备: 开始/2_devices.md
-              - 可视化与分析: 开始/3_visual.md
+              - 快速开始: Getting Started/1_quick_start.md
+              - 连接设备: Getting Started/2_devices.md
+              - 可视化与分析: Getting Started/3_visual.md
             - 指南:
               - 让Agent思考:
                 - 更复杂的流程: Guides/Let the agent think/1_workflow.md
