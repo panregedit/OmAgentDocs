@@ -10,7 +10,10 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
-
+  icon:
+    repo: fontawesome/brands/github
+repo_url: https://github.com/om-ai-lab/OmAgent
+repo_name: om-ai-lab/OmAgent
 markdown_extensions:
   - meta # 用于在Markdown文件中添加元数据
   - toc:
@@ -74,7 +77,7 @@ plugins:
             - 指南:
               - 让Agent思考:
                 - 更复杂的流程: Guides/Let the agent think/1_workflow.md
-                - 使用工具: Guides/Let the agent think/2_tool.md  
+                - 使用工具: Guides/Let the agent think/2_tool.md
               - 让Agent记住:
                 - 记忆: Guides/Let the agent remember/1_memory.md
             - 核心概念:
@@ -111,5 +114,9 @@ extra:
   social: # 社交账号
       - icon: fontawesome/brands/github
         link: https://github.com/
+      - icon: fontawesome/brands/square-x-twitter
+        link: https://x.com/OmAI_lab
+      - icon: fontawesome/brands/discord
+        link: https://discord.gg/9JfTJ7bk
   version:
     provider: mike
