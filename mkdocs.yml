@@ -73,35 +73,35 @@ plugins:
               - 可视化与分析: 开始/3_visual.md
             - 指南:
               - 让Agent思考:
-                - 更复杂的流程: 指南/让Agent思考/1_workflow.md
-                - 使用工具: 指南/让Agent思考/2_tool.md  
+                - 更复杂的流程: Guides/Let the agent think/1_workflow.md
+                - 使用工具: Guides/Let the agent think/2_tool.md  
               - 让Agent记住:
-                - 记忆: 指南/让Agent记住/1_memory.md
+                - 记忆: Guides/Let the agent remember/1_memory.md
             - 核心概念:
               - Node: 
-                - 介绍: 核心概念/Node/intro.md
-                - 配置: 核心概念/Node/config.md
-                - 构建: 核心概念/Node/build.md
+                - 介绍: Core Concepts/Node/intro.md
+                - 配置: Core Concepts/Node/config.md
+                - 构建: Core Concepts/Node/build.md
               - Workflow: 
-                - 介绍: 核心概念/Workflow/intro.md
-                - 配置: 核心概念/Workflow/config.md
-                - 构建: 核心概念/Workflow/build.md
+                - 介绍: Core Concepts/Workflow/intro.md
+                - 配置: Core Concepts/Workflow/config.md
+                - 构建: Core Concepts/Workflow/build.md
               - Models: 
-                - 介绍: 核心概念/Models/intro.md
-                - 配置: 核心概念/Models/config.md
-                - 构建: 核心概念/Models/build.md
+                - 介绍: Core Concepts/Models/intro.md
+                - 配置: Core Concepts/Models/config.md
+                - 构建: Core Concepts/Models/build.md
               - Tool: 
-                - 介绍: 核心概念/Tool/intro.md
-                - 配置: 核心概念/Tool/config.md
-                - 构建: 核心概念/Tool/build.md
+                - 介绍: Core Concepts/Tool/intro.md
+                - 配置: Core Concepts/Tool/config.md
+                - 构建: Core Concepts/Tool/build.md
               - Memory: 
-                - 介绍: 核心概念/Memory/intro.md
-                - 配置: 核心概念/Memory/config.md
-                - 构建: 核心概念/Memory/build.md
+                - 介绍: Core Concepts/Memory/intro.md
+                - 配置: Core Concepts/Memory/config.md
+                - 构建: Core Concepts/Memory/build.md
               - Clients: 
-                - 介绍: 核心概念/Clients/intro.md
-                - 配置: 核心概念/Clients/config.md
-                - 构建: 核心概念/Clients/build.md
+                - 介绍: Core Concepts/Clients/intro.md
+                - 配置: Core Concepts/Clients/config.md
+                - 构建: Core Concepts/Clients/build.md
   - search: # 搜索
       lang:
           - en
