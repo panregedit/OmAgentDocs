@@ -119,5 +119,7 @@ extra:
       link: https://x.com/OmAI_lab
     - icon: fontawesome/brands/discord
       link: https://discord.gg/CtmCgXZB
+  static_files:
+    - assets/images/*
   version:
     provider: mike

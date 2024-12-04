@@ -26,7 +26,7 @@
         "Efficiently solve complex tasks using a divide and conquer algorithm.",
       desc: "General task solver is an agent that implements a powerful divide and conquer algorithm to address common computational problems. The agent intelligently assesses input tasks and, if deemed too complex, breaks them down into manageable sub-tasks. Each sub-task is then solved individually, ensuring a streamlined and efficient problem-solving process. It enhances performance and scalability, making it a versatile tool for various applications.",
       deviceList: "Command line, App, Webpage",
-      img: "assets/images/GeneralTaskSolver.png",
+      img: "{{ base_url }}/assets/images/GeneralTaskSolver.png",
       url: "https://github.com/om-ai-lab/OmAgent/tree/main/examples/general_dnc",
     },
     {
@@ -35,7 +35,7 @@
         "Preprocess long videos and perform QA with human-like precision using Divide-and-Conquer and Rewinder tools.",
       desc: "Video Understanding is an agent that has capbility of handling hours-long videos and enable precise question-answering. By leveraging the Divide and Conquer (DnC) algorithm alongside the Rewinder tool, agent can intelligently navigate and analyze video content. This allows it to pinpoint and revisit specific segments, much like a human would. It excels in breaking down complex video data into manageable sections, providing accurate and context-aware answers to queries.",
       deviceList: "Command line, Webpage",
-      img: "assets/images/Videounderstanding.png",
+      img: "{{ base_url }}/assets/images/Videounderstanding.png",
       url: "https://github.com/om-ai-lab/OmAgent/tree/main/examples/video_understanding",
     },
     {
@@ -44,7 +44,7 @@
         "A simple agent that enables users to ask questions about images and receive AI-powered responses",
       desc: "This agent is designed to process and respond to user queries about image content. The system combines image processing capabilities with natural language understanding to analyze visual information and generate relevant answers to user questions. The framework provides a complete pipeline from handling user input and image data to generating accurate, context-aware responses about visual content.",
       deviceList: "Command line, App, Webpage",
-      img: "assets/images/SimpleVQA.png",
+      img: "{{ base_url }}/assets/images/SimpleVQA.png",
       url: "https://github.com/om-ai-lab/OmAgent/tree/main/examples/step1_simpleVQA",
     },
     {
@@ -53,7 +53,7 @@
         "A beginner-friendly demo agent that leverages OmAgent and Switch Worker features to provide personalized outfit recommendations based on user requests and optional weather conditions.",
       desc: "This demo agent showcases how to build an intelligent outfit recommendation system using OmAgent and Switch Worker capabilities. The agent processes user clothing requests and optionally incorporates real-time weather data into its recommendations based on context analysis. Using a switch-case mechanism, it dynamically decides whether to fetch weather information, making the recommendation process more contextually aware and efficient. The agent serves as an excellent starting point for understanding how to implement conditional workflows and integrate external data sources in OmAgent-based applications.",
       deviceList: "Command line, App, Webpage",
-      img: "assets/images/OutfitwithSwitch.png",
+      img: "{{ base_url }}/assets/images/OutfitwithSwitch.png",
       url: "https://github.com/om-ai-lab/OmAgent/tree/main/examples/step2_outfit_with_switch",
     },
     {
@@ -62,7 +62,7 @@
         "A beginner-friendly demo agent that leverages OmAgent and Loop features to provide interactive, weather-aware outfit recommendations based on user input and preferences.",
       desc: "This demo agent showcases how to build an interactive outfit recommendation system using OmAgent and Loop Worker capabilities. The agent starts by accepting an initial clothing item image and engages users in a dynamic Q&A session to understand their preferences and context. It incorporates real-time weather data from the user's location to ensure weather-appropriate suggestions. Through an iterative loop process, the agent refines its understanding until it has gathered sufficient information to provide personalized outfit recommendations that consider all collected factors.",
       deviceList: "Command line, App, Webpage",
-      img: "assets/images/OutfitwithLoop.png",
+      img: "{{ base_url }}/assets/images/OutfitwithLoop.png",
       url: "https://github.com/om-ai-lab/OmAgent/tree/main/examples/step3_outfit_with_loop",
     },
     {
@@ -71,7 +71,7 @@
         "This agent showcases how to build an outfit recommendation agent using OmAgent framework with long-term memory capabilities, where it stores clothing images and provides personalized outfit suggestions based on user preferences.",
       desc: "This demo illustrates how to create an entry-level outfit recommendation system using the OmAgent framework with long-term memory (LTM) functionality. The agent consists of two main workflows: one for storing and indexing clothing images in a long-term memory database, and another for providing interactive outfit recommendations. Through conversation, the agent gathers user preferences and context (like weather conditions), then leverages its stored clothing database to generate personalized outfit suggestions. The system demonstrates practical implementation of persistent memory in AI agents while providing a useful real-world application.",
       deviceList: "Command line, App, Webpage",
-      img: "assets/images/OutfitwithLTM.png",
+      img: "{{ base_url }}/assets/images/OutfitwithLTM.png",
       url: "https://github.com/om-ai-lab/OmAgent/tree/main/examples/step4_outfit_with_ltm",
     },
   ];
@@ -135,7 +135,11 @@
 </script>
 <section class="mdx-container">
   <div class="container_head">
-    <img src="assets/images/bg.png" alt="" class="container_head_img" />
+    <img
+      src="{{ base_url }}/assets/images/bg.png"
+      alt=""
+      class="container_head_img"
+    />
     <div class="mdx__content">
       <div class="mdx_title">OmAgent</div>
       <div class="mdx_subtitle">
@@ -145,48 +149,7 @@
   </div>
   <div class="mdx_box">
     <div class="content_title">Software Development</div>
-    <div class="container">
-      <!-- <div
-        class="item"
-        data-item="{title:'lllll',img:'ddddd'}"
-        id="openPopupButton"
-      >
-        <img src="assets/images/bg.png" alt="" class="item_img" />
-        <div class="item_title">More complex workflow</div>
-        <div class="item_desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          scelerisque, nisl eget aliquam ultrices, nunc nisl aliquet nisl, eu
-          aliquam nisl nisl eu nisl.
-        </div>
-      </div>
-      <div class="item">
-        <img src="assets/images/bg.png" alt="" class="item_img" />
-        <div class="item_title">More complex workflow</div>
-        <div class="item_desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          scelerisque, nisl eget aliquam ultrices, nunc nisl aliquet nisl, eu
-          aliquam nisl nisl eu nisl.
-        </div>
-      </div>
-      <div class="item">
-        <img src="assets/images/bg.png" alt="" class="item_img" />
-        <div class="item_title">More complex workflow</div>
-        <div class="item_desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          scelerisque, nisl eget aliquam ultrices, nunc nisl aliquet nisl, eu
-          aliquam nisl nisl eu nisl.
-        </div>
-      </div>
-      <div class="item">
-        <img src="assets/images/bg.png" alt="" class="item_img" />
-        <div class="item_title">More complex workflow</div>
-        <div class="item_desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          scelerisque, nisl eget aliquam ultrices, nunc nisl aliquet nisl, eu
-          aliquam nisl nisl eu nisl.
-        </div>
-      </div> -->
-    </div>
+    <div class="container"></div>
   </div>
 
   <div id="popup" class="popup">
