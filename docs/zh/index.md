@@ -1,4 +1,6 @@
-# 为你的智能设备构建智能代理
-
-
-
+---
+template: home.html
+hide:
+  - navigation
+  - toc
+---

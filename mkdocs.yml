@@ -2,6 +2,7 @@ site_name: OmAgent
 site_url: https://om-ai-lab.github.io/OmAgentDocs/
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -31,92 +32,92 @@ plugins:
           nav:
             - Home: index.md
             - Getting Started:
-              - Quick Start: Getting Started/1_quick_start.md
-              - Connect to device: Getting Started/2_devices.md
-              - Visualization and analysis: Getting Started/3_visual.md
+                - Quick Start: Getting Started/1_quick_start.md
+                - Connect to device: Getting Started/2_devices.md
+                - Visualization and analysis: Getting Started/3_visual.md
             - Guides:
-              - Let the agent think:
-                - More complex workflow: Guides/Let the agent think/1_workflow.md
-                - Tools: Guides/Let the agent think/2_tool.md  
-              - Let the agent remember:
-                - Memory: Guides/Let the agent remember/1_memory.md
+                - Let the agent think:
+                    - More complex workflow: Guides/Let the agent think/1_workflow.md
+                    - Tools: Guides/Let the agent think/2_tool.md
+                - Let the agent remember:
+                    - Memory: Guides/Let the agent remember/1_memory.md
             - Core Concepts:
-              - Node: 
-                - Introduction: Core Concepts/Node/intro.md
-                - Configuration: Core Concepts/Node/config.md
-                - Build: Core Concepts/Node/build.md
-              - Workflow: 
-                - Introduction: Core Concepts/Workflow/intro.md
-                - Configuration: Core Concepts/Workflow/config.md
-                - Build: Core Concepts/Workflow/build.md
-              - Models: 
-                - Introduction: Core Concepts/Models/intro.md
-                - Configuration: Core Concepts/Models/config.md
-                - Build: Core Concepts/Models/build.md
-              - Tool: 
-                - Introduction: Core Concepts/Tool/intro.md
-                - Configuration: Core Concepts/Tool/config.md
-                - Build: Core Concepts/Tool/build.md
-              - Memory: 
-                - Introduction: Core Concepts/Memory/intro.md
-                - Configuration: Core Concepts/Memory/config.md
-                - Build: Core Concepts/Memory/build.md
-              - Clients: 
-                - Introduction: Core Concepts/Clients/intro.md
-                - Configuration: Core Concepts/Clients/config.md
-                - Build: Core Concepts/Clients/build.md
+                - Node:
+                    - Introduction: Core Concepts/Node/intro.md
+                    - Configuration: Core Concepts/Node/config.md
+                    - Build: Core Concepts/Node/build.md
+                - Workflow:
+                    - Introduction: Core Concepts/Workflow/intro.md
+                    - Configuration: Core Concepts/Workflow/config.md
+                    - Build: Core Concepts/Workflow/build.md
+                - Models:
+                    - Introduction: Core Concepts/Models/intro.md
+                    - Configuration: Core Concepts/Models/config.md
+                    - Build: Core Concepts/Models/build.md
+                - Tool:
+                    - Introduction: Core Concepts/Tool/intro.md
+                    - Configuration: Core Concepts/Tool/config.md
+                    - Build: Core Concepts/Tool/build.md
+                - Memory:
+                    - Introduction: Core Concepts/Memory/intro.md
+                    - Configuration: Core Concepts/Memory/config.md
+                    - Build: Core Concepts/Memory/build.md
+                - Clients:
+                    - Introduction: Core Concepts/Clients/intro.md
+                    - Configuration: Core Concepts/Clients/config.md
+                    - Build: Core Concepts/Clients/build.md
         - locale: zh
           name: 中文
           build: true
           nav:
             - 首页: index.md
             - 开始:
-              - 快速开始: Getting Started/1_quick_start.md
-              - 连接设备: Getting Started/2_devices.md
-              - 可视化与分析: Getting Started/3_visual.md
+                - 快速开始: Getting Started/1_quick_start.md
+                - 连接设备: Getting Started/2_devices.md
+                - 可视化与分析: Getting Started/3_visual.md
             - 指南:
-              - 让Agent思考:
-                - 更复杂的流程: Guides/Let the agent think/1_workflow.md
-                - 使用工具: Guides/Let the agent think/2_tool.md
-              - 让Agent记住:
-                - 记忆: Guides/Let the agent remember/1_memory.md
+                - 让Agent思考:
+                    - 更复杂的流程: Guides/Let the agent think/1_workflow.md
+                    - 使用工具: Guides/Let the agent think/2_tool.md
+                - 让Agent记住:
+                    - 记忆: Guides/Let the agent remember/1_memory.md
             - 核心概念:
-              - Node: 
-                - 介绍: Core Concepts/Node/intro.md
-                - 配置: Core Concepts/Node/config.md
-                - 构建: Core Concepts/Node/build.md
-              - Workflow: 
-                - 介绍: Core Concepts/Workflow/intro.md
-                - 配置: Core Concepts/Workflow/config.md
-                - 构建: Core Concepts/Workflow/build.md
-              - Models: 
-                - 介绍: Core Concepts/Models/intro.md
-                - 配置: Core Concepts/Models/config.md
-                - 构建: Core Concepts/Models/build.md
-              - Tool: 
-                - 介绍: Core Concepts/Tool/intro.md
-                - 配置: Core Concepts/Tool/config.md
-                - 构建: Core Concepts/Tool/build.md
-              - Memory: 
-                - 介绍: Core Concepts/Memory/intro.md
-                - 配置: Core Concepts/Memory/config.md
-                - 构建: Core Concepts/Memory/build.md
-              - Clients: 
-                - 介绍: Core Concepts/Clients/intro.md
-                - 配置: Core Concepts/Clients/config.md
-                - 构建: Core Concepts/Clients/build.md
+                - Node:
+                    - 介绍: Core Concepts/Node/intro.md
+                    - 配置: Core Concepts/Node/config.md
+                    - 构建: Core Concepts/Node/build.md
+                - Workflow:
+                    - 介绍: Core Concepts/Workflow/intro.md
+                    - 配置: Core Concepts/Workflow/config.md
+                    - 构建: Core Concepts/Workflow/build.md
+                - Models:
+                    - 介绍: Core Concepts/Models/intro.md
+                    - 配置: Core Concepts/Models/config.md
+                    - 构建: Core Concepts/Models/build.md
+                - Tool:
+                    - 介绍: Core Concepts/Tool/intro.md
+                    - 配置: Core Concepts/Tool/config.md
+                    - 构建: Core Concepts/Tool/build.md
+                - Memory:
+                    - 介绍: Core Concepts/Memory/intro.md
+                    - 配置: Core Concepts/Memory/config.md
+                    - 构建: Core Concepts/Memory/build.md
+                - Clients:
+                    - 介绍: Core Concepts/Clients/intro.md
+                    - 配置: Core Concepts/Clients/config.md
+                    - 构建: Core Concepts/Clients/build.md
   - search: # 搜索
       lang:
-          - en
-          - zh
+        - en
+        - zh
       separator: '[\s\-\.]+' # 分词分隔符
 extra:
   social: # 社交账号
-      - icon: fontawesome/brands/github
-        link: https://github.com/om-ai-lab/OmAgent
-      - icon: fontawesome/brands/square-x-twitter
-        link: https://x.com/OmAI_lab
-      - icon: fontawesome/brands/discord
-        link: https://discord.gg/CtmCgXZB
+    - icon: fontawesome/brands/github
+      link: https://github.com/om-ai-lab/OmAgent
+    - icon: fontawesome/brands/square-x-twitter
+      link: https://x.com/OmAI_lab
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/CtmCgXZB
   version:
     provider: mike
