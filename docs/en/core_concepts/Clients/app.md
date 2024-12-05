@@ -6,7 +6,7 @@ OmAgent App is an app for developers to visualize and edit business scenario con
 The QR code for downloading the app is as follows:
 
 <p align="center">
-  <img src="../../assets/images/app_qrcode.png" width="300"/>
+  <img src="![](../../assets/images/app_qrcode.png)" width="300"/>
 </p>
 
 - Currently, only Android phones are supported for download and use, but iOS support is coming soon.
